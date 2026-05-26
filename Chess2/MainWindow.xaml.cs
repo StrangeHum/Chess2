@@ -1,5 +1,4 @@
-﻿using Chess.Models;
-using Chess2.Models;
+﻿using Chess2.Models;
 using Chess2.Services;
 using Chess2.ViewModels;
 using System.Text;

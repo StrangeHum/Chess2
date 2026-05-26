@@ -1,5 +1,4 @@
-﻿using Chess.Models;
-using Chess2.Models;
+﻿using Chess2.Models;
 using Chess2.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -7,6 +6,9 @@ using System.Text;
 
 namespace Chess2.Services
 {
+    /// <summary>
+    /// Инструмент для загрузки доски
+    /// </summary>
     public class BoardLoader
     {
         private Random _random = new();
@@ -67,7 +69,7 @@ namespace Chess2.Services
             ".....N.." +
             "PPP..PPP" +
             "R.BQK..R",
-            //Сложная смешанная позиция - самая лучшая для демонстрации возможностей программы
+            //Сложная позиция - топчик для демонстрации
             "r...k..r" +
             "pp..pppp" +
             "..n....." +

@@ -1,11 +1,13 @@
-﻿using Chess.Models;
-using Chess2.Models;
+﻿using Chess2.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Chess2.Services
 {
+    /// <summary>
+    /// Патерн "Фабрика" для создания экземпляров фигур по символу. 
+    /// </summary>
     public static class PieceFactory
     {
         public static Piece? Create(char c)
